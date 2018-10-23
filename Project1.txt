@@ -1,0 +1,7 @@
+#Program: Project 1
+#Output: @02834462
+#        Rodgers, Alexander
+  .text
+main:
+  li $v0, 10
+  syscall     #Exiting the program
