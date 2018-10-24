@@ -43,5 +43,11 @@ main:
   addi $a0, $a0, -11
   syscall         #Print d
   
+  addi $a0, $a0, 3
+  syscall         #Print g
+  
+  addi $a0, $a0, -2
+  syscall         #Print e
+  
   li $v0, 10
   syscall         #Exiting the program
