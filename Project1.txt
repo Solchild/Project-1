@@ -17,5 +17,12 @@ main:
   addi $a0, $a0, 6
   syscall         #Print 8
   
+  addi $a0, $a0, -5
+  syscall         #Print 3
+  
+  addi $a0, $a0, 1
+  syscall         #Print 4
+  
+  syscall         #Print 4
   li $v0, 10
   syscall         #Exiting the program
