@@ -3,5 +3,9 @@
 #        Rodgers, Alexander
   .text
 main:
+  li $v0, 11
+  li $a0, '@'
+  syscall     #Print @
+  
   li $v0, 10
   syscall     #Exiting the program
