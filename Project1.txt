@@ -34,8 +34,14 @@ main:
   addi $a0, $a0, 8
   syscall         #Print new line?
   
-  addi $a0, $a0, 57
-  syscall         #Print A
+  addi $a0, $a0, 72
+  syscall         #Print R
+  
+  addi $a0, $a0, 29
+  syscall         #Print o
+  
+  addi $a0, $a0, -11
+  syscall         #Print d
   
   li $v0, 10
   syscall         #Exiting the program
