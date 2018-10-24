@@ -4,9 +4,10 @@
   .text
 main:
   li $v0, 11
-  li $a0, '@'
+  li $a0, 64
   syscall         #Print @
   
+  li $ v0, 1
   addi $a0, $a0, -64
   syscall         #Print 0
   
