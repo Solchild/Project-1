@@ -73,11 +73,17 @@ main:
   addi $a0, $a0, 19
   syscall         #Print x
   
-  addi $a0, $a0, 23
+  addi $a0, $a0, -23
   syscall         #Print a
   
   addi $a0, $a0, 13
   syscall         #Print n
+  
+  addi $a0, $a0, -10
+  syscall         #Print d
+  
+  addi $a0, $a0, 1
+  syscall         #Print e
   
   li $v0, 10
   syscall         #Exiting the program
