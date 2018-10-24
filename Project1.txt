@@ -1,7 +1,6 @@
 #Program: Project 1
 #Output: @02834462
 #        Rodgers, Alexander
-  .text
 main:
   li $v0, 11
   li $a0, 64
