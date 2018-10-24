@@ -5,11 +5,17 @@
 main:
   li $v0, 11
   li $a0, '@'
-  syscall     #Print @
+  syscall         #Print @
   
   li $v0, 1
   addi $a0, $a0, -16
-  syscall     #Print 0
+  syscall         #Print 0
+  
+  addi $a0, $a0, 2
+  syscall         #Print 2
+  
+  addi $a0, $a0, 6
+  syscall         #Print 8
   
   li $v0, 10
-  syscall     #Exiting the program
+  syscall         #Exiting the program
