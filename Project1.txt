@@ -7,8 +7,7 @@ main:
   li $a0, '@'
   syscall         #Print @
   
-  li $v0, 1
-  addi $a0, $a0, -16
+  addi $a0, $a0, -64
   syscall         #Print 0
   
   addi $a0, $a0, 2
@@ -30,6 +29,13 @@ main:
   
   addi $a0, $a0, -4
   syscall         #Print 2
+  
+  li $v0, 11
+  addi $a0, $a0, 8
+  syscall         #Print new line?
+  
+  addi $a0, $a0, 57
+  syscall         #Print A
   
   li $v0, 10
   syscall         #Exiting the program
