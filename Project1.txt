@@ -49,11 +49,17 @@ main:
   addi $a0, $a0, -2
   syscall         #Print e
   
-  addi $a0, $a0, 14
+  addi $a0, $a0, 13
   syscall         #Print r
   
   addi $a0, $a0, 1
   syscall         #Print s
+  
+  addi $a0, $a0, -71
+  syscall         #Print ,
+  
+  addi $a0, $a0, 11
+  syscall         #Print " "
   
   li $v0, 10
   syscall         #Exiting the program
