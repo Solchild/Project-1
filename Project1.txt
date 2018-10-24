@@ -85,5 +85,8 @@ main:
   addi $a0, $a0, 1
   syscall         #Print e
   
+  addi $a0, $a0, 13
+  syscall         #Print r
+  
   li $v0, 10
   syscall         #Exiting the program
