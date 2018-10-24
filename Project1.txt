@@ -58,8 +58,14 @@ main:
   addi $a0, $a0, -71
   syscall         #Print ,
   
-  addi $a0, $a0, 11
+  addi $a0, $a0, -12
   syscall         #Print " "
+  
+  addi $a0, $a0, 33
+  syscall         #Print A
+  
+  addi $a0, $a0, 43
+  syscall         #Print l
   
   li $v0, 10
   syscall         #Exiting the program
