@@ -8,8 +8,8 @@ main:
   syscall     #Print @
   
   li $v0, 1
-  li $a1, 02834462
-  syscall     #Print 02834462
+  addi $a0, $a0, -16
+  syscall     #Print 0
   
   li $v0, 10
   syscall     #Exiting the program
